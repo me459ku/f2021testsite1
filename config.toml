@@ -1,6 +1,6 @@
-baseURL = 'https://me459ku.github.io/f2021testsite1'
+baseURL = 'https://me459ku.github.io/project_site_template'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Project Alpha'
 theme = "learn"
 
 # For search functionality
@@ -48,3 +48,23 @@ home = [ "HTML", "RSS", "JSON"]
   custom_css = ["css/foo.css", "css/bar.css"]
   # Change the title separator. Default to "::".
   titleSeparator = "-"
+
+[[menu.shortcuts]] 
+name = "<i class='fas fa-building'></i> Kuwait University"
+identifier = "ds"
+url = "http://www.kuniv.edu.kw/"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-cubes'></i> ME459 Engineering Design"
+url = "https://me459ku.github.io/"
+weight = 11
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-bookmark'></i> Other Link 1"
+identifier = "hugodoc"
+url = "https://gohugo.io/"
+weight = 20
+
+[markup.goldmark.renderer]
+unsafe= true
