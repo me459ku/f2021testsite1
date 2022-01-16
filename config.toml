@@ -1,0 +1,4 @@
+baseURL = 'https://me459ku.github.io/f2021testsite1'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "ananke"
