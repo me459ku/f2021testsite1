@@ -1,5 +1,5 @@
 +++
-title = "Problem Definition"
+title = "Problem Definition XYZ"
 date = 2022-01-16T12:26:22+03:00
 weight = 2
 +++
@@ -40,11 +40,18 @@ _Italic Text_
 | ext    | extension to be used for dest files. |
 ```
 
-| Option | Description |
-| ------ | ----------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
+```matlab
+
+function x = array
+
+
+```
+
+| Option | Description | Comment |
+|:------:| ----------- | -------- |
+| data   | path to data files to supply the data that will be passed into templates. | dsf |
+| engine | engine to be used for processing templates. Handlebars is the default. | dfs |
+| ext    | extension to be used for dest files. | sdf |
 
 ```
 ![](images/2022-01-16-15-10-25.png?width=20pc)
